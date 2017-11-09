@@ -1,0 +1,58 @@
+.app {
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 40px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+main {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #4ec5e6;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    font-size: 1em;
+    padding: 1em;
+    border: 2px solid rgba(0,0,0, 0.15);
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+form button + button {
+    margin-left: 10px;
+}

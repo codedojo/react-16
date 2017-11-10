@@ -4,6 +4,7 @@ import './App.css';
 import logo from './logo.svg';
 
 import LoginForm from './components/LoginForm';
+import ErrorBoundary from './components/ErrorBoundary';
 
 export default class App extends Component {
     render() {
@@ -15,7 +16,9 @@ export default class App extends Component {
                 </header>
 
                 <main>
-                    <LoginForm />
+                    <ErrorBoundary>
+                        <LoginForm />
+                    </ErrorBoundary>
                 </main>
             </div>
         );

@@ -15,6 +15,8 @@ export default class App extends Component {
                 <main>
                     
                 </main>
+
+                <footer></footer>
             </div>
         );
     }

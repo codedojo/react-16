@@ -25,14 +25,3 @@ main {
     display: flex;
     justify-content: center;
 }
-
-button {
-    background-color: #4ec5e6;
-    color: white;
-    font-size: 1em;
-    padding: 1em;
-    border: 0;
-    border-radius: 3px;
-    outline: none;
-    cursor: pointer;
-}

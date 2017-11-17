@@ -15,6 +15,8 @@ export default class App extends Component {
                 <main>
                     
                 </main>
+
+                <footer>CodeDojo • 2017</footer>
             </div>
         );
     }

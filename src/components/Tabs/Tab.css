@@ -1,0 +1,17 @@
+.tab {
+    min-width: 160px;
+    padding: 0 24px;
+    font-size: 0.875rem;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.54);
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.87);
+    transition: all .2s;
+}
+
+.tab--active {
+    color: rgba(0, 0, 0, 0.87);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.87);
+}

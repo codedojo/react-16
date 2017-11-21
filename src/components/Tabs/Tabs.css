@@ -1,0 +1,10 @@
+.tab-bar {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.tab-panel {
+    margin-top: 1rem;
+}

@@ -7,7 +7,7 @@ export default class Tabs extends React.Component {
         activeTabIndex: 0
     };
 
-    handleTabClick = tabIndex => this.setState({ activeTabIndex: tabIndex });
+    handleTabClick = tabIndex => this.setState(state => state.activeTabIndex === tabIndex ? null : ({ activeTabIndex: tabIndex }));
 
     render() {
         return (

@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import logo from './logo.svg';
 
+import DateTime from './components/Date';
+
 export default class App extends Component {
     render() {
         return (
@@ -13,8 +15,10 @@ export default class App extends Component {
                 </header>
 
                 <main>
-                    
+                    <DateTime value={new Date()} format={'DD MMMM YYYY'} />
                 </main>
+
+                <footer></footer>
             </div>
         );
     }
